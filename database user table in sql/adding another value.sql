@@ -1,0 +1,2 @@
+ALTER TABLE users
+ADD COLUMN emailofuser VARCHAR(150);
