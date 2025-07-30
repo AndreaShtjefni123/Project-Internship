@@ -71,7 +71,10 @@ public class Book {
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL)
     private List<Ratings> ratings;
+        
+public void setArchived(boolean b) {
 
+    }
 }
 
 
